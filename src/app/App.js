@@ -1,9 +1,11 @@
 import './App.css';
+import Clock from './clock/Clock'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Clock />
       </header>
 
       <h1>Cyber dilemma</h1>
