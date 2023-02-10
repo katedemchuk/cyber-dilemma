@@ -1,8 +1,14 @@
-- [ ] Extract Instruction button component
+- [ ] **Extract Instruction button component**
 
-Which currently is simply `<a>` element
+  Which currently is simply `<a>` element
 
 - [ ] Add navigation system
 
-Currently to navigate between scenes you need to change variable `scene` in App.js
+  Currently to navigate between scenes you need to change variable `scene` in App.js
 
+- [ ] Create Window component
+- [ ] Create Popup component
+- [ ] Create Workplace component
+- [ ] Implement first popup in Workplace component
+- [ ] Add background music
+- [ ] Deploy game dev version
