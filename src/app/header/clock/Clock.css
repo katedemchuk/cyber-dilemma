@@ -2,8 +2,5 @@
   padding: 5px;
   border: 2px solid var(--color-accent);
   color: var(--color-accent);
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 0.85em;
+  margin-left: auto;
 }

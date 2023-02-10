@@ -11,6 +11,10 @@
   --color-action: #CC6D1F;
 }
 
+html {
+  font-size: var(--font-size);
+}
+
 html, body, #root {
   width: 100%;
   height: 100%;
@@ -20,11 +24,13 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--font-family);
-  font-size: var(--font-size);
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, ul {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6,
-p {
-  margin: 0;
+ul {
+  padding: 0;
 }

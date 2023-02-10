@@ -1,0 +1,28 @@
+.Indicator {
+  display: inline-flex;
+  color: var(--color-accent);
+}
+
+.Indicator:not(:last-child) {
+  margin-right: 30px;
+}
+
+h3 {
+  margin-right: 15px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  width: 10px;
+  height: 23px;
+  background-color: var(--color-accent);
+}
+
+li:not(:last-child) {
+  margin-right: 4px;
+}
+
