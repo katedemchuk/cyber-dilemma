@@ -1,0 +1,12 @@
+:root {
+  --background-color: #000;
+  --text-color: #c6c6c6;
+  --font-family: VT323;
+  --font-size: 25px;
+  --info-width: 515px;
+  --color-accent: #00B400;
+  --color-danger: #C10000;
+  --color-idea: #CCD013;
+  --color-challenge: #B200D9;
+  --color-action: #CC6D1F;
+}
