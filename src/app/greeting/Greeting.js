@@ -25,7 +25,7 @@ function Greeting() {
         <pre>      |___/            |______|_|                                </pre>
       </div>
 
-      <InstructionBtn>Press SPACE to start</InstructionBtn>
+      <InstructionBtn>Press SPACE to continue</InstructionBtn>
     </div>
   )
 }
