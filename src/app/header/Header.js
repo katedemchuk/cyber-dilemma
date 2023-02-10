@@ -4,7 +4,7 @@ import Indicator from './indicator/Indicator';
 
 function Header() {
   return (
-    <div className="Header">
+    <div className='Header'>
       {/* <Indicator title='Sleep' charge='3' />
       <Indicator title='Coffee' /> */}
       <Clock />

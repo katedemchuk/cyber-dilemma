@@ -4,9 +4,9 @@ import Header from './header/Header';
 import Start from './start/Start';
 
 function App() {
-  const scene = 1;
+  const scene = 0;
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       {scene == 0 && <Start />}
       {scene == 1 && <Greeting />}

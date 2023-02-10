@@ -22,7 +22,7 @@ function Clock() {
   const minutes = (now.getMinutes() + '').padStart(2, '0');
 
   return (
-    <div className="Clock">{DAYS[day]} {date} {MONTHS[month]} {hours}:{minutes}</div>
+    <div className='Clock'>{DAYS[day]} {date} {MONTHS[month]} {hours}:{minutes}</div>
   );
 }
 

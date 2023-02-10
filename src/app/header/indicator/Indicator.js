@@ -15,7 +15,7 @@ function Indicator({title, capacity = 5, charge = 5}) {
   }
 
   return (
-    <div className="Indicator">
+    <div className='Indicator'>
       {title && <h3>{title}</h3>}
       <ul>{ticks}</ul>
     </div>

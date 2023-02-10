@@ -37,10 +37,6 @@ a::after {
   content: ']';
 }
 
-.text-accent {
-  color: var(--color-accent);
-}
-
 .text-danger {
   color: var(--color-danger);
 }
