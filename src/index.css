@@ -15,10 +15,20 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, h6,
-p, ul {
+p, ul, pre {
   margin: 0;
 }
 
 ul {
   padding: 0;
+}
+
+pre, button {
+  font-family: var(--font-family);
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
 }

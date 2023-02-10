@@ -1,0 +1,19 @@
+.InstructionBtn {
+  display: inline-block;
+  margin-top: 60px;
+  font-size: 1.2rem;
+  color: var(--color-action);
+}
+
+.InstructionBtn::before,
+.InstructionBtn::after {
+  display: inline;
+}
+
+.InstructionBtn::before {
+  content: '[';
+}
+
+.InstructionBtn::after {
+  content: ']';
+}

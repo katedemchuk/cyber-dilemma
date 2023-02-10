@@ -1,3 +1,4 @@
+import InstructionBtn from '../text-utils/InstructionBtn';
 import StyledText from '../text-utils/StyledText';
 import './Greeting.css';
 
@@ -24,7 +25,7 @@ function Greeting() {
         <pre>      |___/            |______|_|                                </pre>
       </div>
 
-      <a>Press SPACE to start</a>
+      <InstructionBtn>Press SPACE to start</InstructionBtn>
     </div>
   )
 }

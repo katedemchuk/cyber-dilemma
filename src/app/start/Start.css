@@ -16,31 +16,3 @@ h1 {
 p {
   max-width: var(--info-width);
 }
-
-a {
-  display: inline-block;
-  margin-top: 60px;
-  font-size: 1.2rem;
-  color: var(--color-action);
-}
-
-a::before,
-a::after {
-  display: inline;
-}
-
-a::before {
-  content: '[';
-}
-
-a::after {
-  content: ']';
-}
-
-.text-danger {
-  color: var(--color-danger);
-}
-
-.text-idea {
-  color: var(--color-idea);
-}

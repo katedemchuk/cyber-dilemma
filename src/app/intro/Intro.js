@@ -1,5 +1,6 @@
 import './Intro.css';
 import StyledText from "../text-utils/StyledText";
+import InstructionBtn from '../text-utils/InstructionBtn';
 
 function Intro() {
   return (
@@ -14,7 +15,7 @@ function Intro() {
         <StyledText color='accent'>I think you're ready to start your day.</StyledText>
       </p>
 
-      <a>Press SPACE to wake up</a>
+      <InstructionBtn>Press SPACE to wake up</InstructionBtn>
     </div>
   )
 }
