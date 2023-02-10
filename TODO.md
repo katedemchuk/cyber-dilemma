@@ -9,3 +9,4 @@
 - [ ] **Implement first popup in Workplace component**
 - [ ] **Add background music**
 - [ ] **Deploy game dev version**
+- [ ] **Add favicon**
