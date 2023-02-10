@@ -1,0 +1,50 @@
+.Start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 4rem;
+  color: var(--color-accent);
+  letter-spacing: 5px;
+}
+
+p {
+  max-width: var(--info-width);
+}
+
+a {
+  display: inline-block;
+  margin-top: 60px;
+  font-size: 1.7rem;
+  color: var(--color-action);
+}
+
+a::before,
+a::after {
+  display: inline;
+}
+
+a::before {
+  content: '[';
+}
+
+a::after {
+  content: ']';
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.text-idea {
+  color: var(--color-idea);
+}

@@ -1,7 +1,7 @@
 import './Clock.css';
 import {useState, useEffect} from 'react';
-import {MONTHS} from '../../constants/months';
-import {DAYS} from '../../constants/days';
+import {MONTHS} from '../../../constants/months';
+import {DAYS} from '../../../constants/days';
 
 function Clock() {
   const [now, setNow] = useState(new Date());
