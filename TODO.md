@@ -7,6 +7,6 @@
 - [ ] **Create Popup component**
 - [ ] **Create Workplace component**
 - [ ] **Implement first popup in Workplace component**
-- [ ] **Add background music**
+- [X] **Add background music**
 - [ ] **Deploy game dev version**
 - [ ] **Add favicon**
