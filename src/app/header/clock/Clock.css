@@ -1,6 +1,4 @@
 .Clock {
-  padding: 5px;
-  border: 2px solid var(--color-accent);
   color: var(--color-accent);
   margin-left: auto;
 }

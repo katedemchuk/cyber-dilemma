@@ -1,0 +1,16 @@
+.Greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ascii {
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+pre {
+  font-family: VT323;
+  margin: 0;
+}
