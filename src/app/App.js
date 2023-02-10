@@ -5,7 +5,7 @@ import Intro from './intro/Intro';
 import Start from './start/Start';
 
 function App() {
-  const scene = 2;
+  const scene = 0;
   return (
     <div className='App'>
       <Header />
